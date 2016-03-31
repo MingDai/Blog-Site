@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nicaragua</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.1/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Nicaragua</a>
+    <ul class="nav">
+      <li ><a href="/feed">Feed</a></li>
+      
+      <li   class="active"><a href="/post">Post</a></li>
+  <li><a href="/chat">Chat</a></li>
+<li><form action="/logout.php">
+  <button  class ="btn btn-default"type="submit"> Log Out </button></form></li>  
+    </ul>
+  </div>
+</div>
+  <div class="well well-large">
+    <ul class="nav nav-tabs">
+  <li class="active">
+    <a href="/post/economy.html">Economy</a>
+  </li>
+  <li><a href="/post/coffeecrisis.html">Coffee Crisis</a></li>
+  <li><a href="/post">Call To Action</a></li>
+</ul>
+<form action="blog.php?topic=Economy" method="post">
+<textarea name ="blog" rows="5" ></textarea>
+<br></br><button class ="btn btn-default"type="submit" > POST </button>
+</form>
+  </div>
+</body>
+</html>
